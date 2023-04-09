@@ -228,3 +228,7 @@ footer a {
 	min-height: 100px;
 	padding-top: 2rem;
 }
+
+button {
+    width: 80px;
+}
