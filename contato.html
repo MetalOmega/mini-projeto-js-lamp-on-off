@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/palette.css">
+  <link rel="stylesheet" href="css/unsemantic-grid-responsive.css">
+</head>
+
+<body>
+  <header>
+    <div class="max-width">
+      <a href="index.html" alt="Portal MetalOmega" title="Portal Metal Omega">
+        <img src="img/logo-metalomega.png" alt="Logo Metal Omega | MetalOmega" title="Logo Metal Omega | MetalOmega">
+      </a>
+    </div>
+    <nav>
+      <div class="max-width">
+        <ul>
+          <li><a href="index.html">Home</li></a>
+          <li><a href="quem-sou.html">Quem Sou</li></a>
+          <li><a href="contato.html">Contato</li></a>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section id="form">
+    <div class="max-width">
+      <div class="grid-70">
+        <div class="grid-100">
+          <h1>Contato</h1>
+        </div>
+        <br>
+        <!--Formulário-->
+        <!--ROW-->
+        <div class="grid-50">
+          <label for="txtnome">Nome</label>
+          <input type="text" id="txtnome" placeholder="Insira seu nome" required>
+        </div>
+        <div class="grid-50">
+          <label for="txtemail">e-mail</label>
+          <input type="text" id="txtemail" placeholder="Digite seu e-mail" required>
+        </div>
+        <!--ROW-->
+        <div class="grid-50">
+          <label for="txtfone">Fone</label>
+          <input type="number" id="txtfone" placeholder="Seu número de telefone" required>
+        </div>
+        <div class="grid-50">
+          <label for="txgenero">Gênero</label>
+          <label class="inline"><input type="radio" value="H" name="rdSexo">Homem</label>
+          <label class="inline"><input type="radio" value="M" name="rdSexo">Mulher</label>
+          <label class="inline"><input type="radio" value="M" name="rdSexo">Outro</label>
+        </div>
+        <div class="clear"></div>
+        <!--ROW-->
+        <div class="grid-50">
+          <label for="slEstado">Estado</label>
+          <select name="slEstado" id="slEstado">
+            <optgroup label="Norte">
+              <option value="AC">Acre</option>
+              <option value="AM">Amazonas</option>
+              <option value="RO">Rondônia</option>
+              <option value="RR">Roraima</option>
+              <option value="AP">Amapá</option>
+              <option value="PA">Pará</option>
+              <option value="TO">Tocantins</option>
+            </optgroup>
+            <optgroup label="Nordeste">
+              <option value="BA">Bahia</option>
+              <option value="MA">Maranhão</option>
+              <option value="PI">Piauí</option>
+              <option value="CE">Ceará</option>
+              <option value="RN">Rio Grande do Norte</option>
+              <option value="PB">Paraíba</option>
+              <option value="PE">Pernambuco</option>
+              <option value="AL">Alagoas</option>
+              <option value="SE">Sergipe</option>
+            </optgroup>
+            <optgroup label="Centro-Oeste">
+              <option value="GO">Goiás</option>
+              <option value="DF">Distrito Federal</option>
+              <option value="MT">Mato Grosso</option>
+              <option value="MS">Mato Grosso do Sul</option>
+            </optgroup>
+            <optgroup label="Sudeste">
+              <option value="UF" selected>UF</option>
+              <option value="SP">São Paulo</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="ES">Espírito Santo</option>
+            </optgroup>
+            <optgroup label="Sul">
+              <option value="PR">Paraná</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="RS">Rio Grande do Sul</option>
+            </optgroup>
+          </select>
+        </div>
+        <div class="grid-50">
+          <label for="txtdate">Data de aniversário</label>
+          <input class="input" type="date" name="txtdate" id="txtdate" required>
+          <br>
+        </div>
+        <!--ROW-->
+        <div class="grid-100">
+          <br>
+          <hr>
+          <textarea class="input" name="txtComentario" placeholder="Insira o seu comentário"></textarea>
+        </div>
+        <!--ROW-->
+        <div class="grid-50">
+          <label for="txtsenha">Validação</label>
+          <input class="input" type="password" name="txtsenha" id="txtsenha" placeholder="Digite um Número"
+            minlength="1" maxlength="10" required>
+        </div>
+        <br>
+        <div class="clear"></div>
+        <div class="grid-50">
+          <input class="btn" type="submit" value="Enviar">
+          <input class="btn" type="reset" value="Limpar">
+        </div>
+        <!--Formulário-->
+      </div>
+      <div class="grid-30">
+        <br>
+        <br>
+        <h2>Leia-me</h2>
+        <p>Por favor, deixe a sua mensagem. Alguns campos são obrigatórios. A sua opinião e sugestão é
+          <strong>importante</strong>
+          .
+        </p>
+        <p>Nosso trabalho é fazer o melhor para lhe atender e superar as suas expectativas.</p>
+        <br>
+        <hr>
+        <h3>Redes Sociais</h3>
+        <a href="https://github.com/MetalOmega" alt="Metal Omega Github" title="Metal Omega Github" target="_blank"><img
+            class="ico" src="icones/github.svg" alt="Metal Omega Github" title="Metal Omega Github">
+        </a>
+        <a href="http://www.facebook.com/metalomegadev" alt="Pagina Metal Omega Dev Facebook"
+          title="Pagina Metal Omega Facebook" target="_blank"><img class="ico" src="icones/facebook.svg"
+            alt="Pagina Metal Omega Facebook" title="Pagina Metal Omega Dev Facebook">
+        </a>
+        </a>
+        <a href="https://instagram.com/metalomegadev" alt="Metal Omega Dev Instagram" title="Metal Omega Dev Instagram"
+          target="_blank"><img class="ico" src="icones/instagram.svg" alt="Metal Omega Dev Instagram"
+            title="Metal Omega Dev Instagram">
+        </a>
+        <a href="http://twitter.com/metalomegadev" alt="Metal Omega Dev Twitter" title="Metal Omega Dev Twitter"
+          target="_blank"><img class="ico" src="icones/twitter.svg" alt="Metal Omega Dev Twitter"
+            title="Metal Omega Dev Twitter">
+        </a>
+        <a href="https://br.linkedin.com/in/rafaelafs" alt="Rafael Metal Omega LinkedIn"
+          title="Rafael Metal Omega LinkedIn" target="_blank"><img class="ico" src="icones/linkedin.svg"
+            alt="Rafael Metal Omega LinkedIn" title="Rafael Metal Omega LinkedIn">
+        </a>
+        <a href="https://www.youtube.com/channel/UCpK_l_wynBIh5cn-4SMbzig/" alt="Metal Omega Dev YouTube"
+          title="Metal Omega Dev YouTube" target="_blank"><img class="ico" src="icones/youtube.svg"
+            alt="Metal Omega Dev YouTube" title="Metal Omega Dev YouTube">
+        </a>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

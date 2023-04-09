@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.max-width {
+    max-width: 1280px;
+    width: 100%;
+}
+
+header {
+    background: #eee;
+}
+
+header img {
+    max-width: 80px;
+    width: 100%;
+    padding: 10px;
+}
+
+p {
+    margin: 15px 0;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+nav {
+    background-color: #0602da;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f2f2f2;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #ff0000;
+    transition: all 1.5s;
+}
+
+section {
+    margin-top: 20px;
+}
+
+#home {
+    margin-top: 20px;
+}
+
+#home img {
+    max-width: 100%;
+    border: none;
+    filter: grayscale(10%);
+    transition: all .8s;
+    cursor: pointer;
+}
+
+#home img:hover {
+    max-width: 100%;
+    border: none;
+    filter: grayscale(70%);
+}
+
+#home a {
+    padding: 5px;
+    background-color: #0602da;
+    color: #f2f2f2;
+    float: right;
+    text-decoration: none;
+}
+
+#home p {
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.box {
+    padding: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+table {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #eee;
+}
+
+table th, table td {
+    padding: 10px;
+}
+
+table th {
+    background-color: #111;
+    color: #fff;
+}
+
+table tbody tr {
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #5678c8;
+}
+
+table tbody tr:hover {
+    background-color: #ccc;
+}
+
+table tfoot td:last-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+#form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+#form input[type="text"],
+#form input[type="number"], 
+#form input[type="password"],
+#form textarea,
+#form select {
+    width: 100%;
+    padding: 10px;
+    color: #1855e4;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 1.3em;
+}
+
+#form input[type="text"]:focus, 
+#form input[type="number"]:focus, 
+#form input[type="password"]:focus 
+#form textarea {
+    box-shadow: 0 0 5px #ccc;
+}
+
+.inline {
+    display: inline !important;
+    padding: 5px !important;
+}
+
+.btn {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #1855e4;
+    border: none;
+    float: right;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 1.3s;
+}
+
+.btn:hover {
+    background-color: #ff0000;
+}
+
+.btn:active {
+    background-color: lime;
+}
+
+.ico {
+    width: 25px;
+    height: 25px;
+    display: inline;
+    filter: grayscale(5%);
+    transition: all .8s;
+}
+
+.ico:hover {
+    filter: grayscale(80%);
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+}
+
+footer {
+	width: 100%;
+	min-height: 30px;
+	background-color: #0602da;
+	margin-top: 4rem;
+	color: #f2f2f2;
+	letter-spacing: 1.5px;
+}
+
+.footer-content {
+	width: 100%;
+	display: flex;
+	min-height: 30px;
+}
+
+.copy {
+	text-align: center;
+	width: 50%;
+	min-height: 100px;
+	padding-top: 2rem;
+}
+footer a {
+	color: #f2f2f2;
+	text-decoration: none;
+}
+.footer-info {
+	text-align: center;
+	width: 50%;
+	min-height: 100px;
+	padding-top: 2rem;
+}
