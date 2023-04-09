@@ -1,7 +1,11 @@
 # Mini Projeto JavaScript Lâmpada Acende | Desliga
-## HTML | CSS
+## HTML | CSS | JavaScript
 
 Este projeto está em desenvolvimento. Início 08-04-2023. Mentoria com Pedro Marins CSV Turma 25A
+
+Foi utilizado a linguagem JavaScript puro sem biblioteca.
+
+## Contém Easter Egg :grin:
 
 ## Como visualizar a página?
 
