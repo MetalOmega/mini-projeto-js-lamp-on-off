@@ -21,14 +21,14 @@ A página pode ser visualizada nos seguintes endereços
 
 ## Descrição
 
-* Foi utilizado neste projeto HTML | CSS.
+* Tecnologias utilizadas neste projeto: HTML | CSS | JavaScript
 
-* Este projeto terá continuidade e aplicação de complemento com as tecnologias...
+## Descrição
+* Contato: +55 (61) 99861-0007 | (61) 99904-4976
 
+## Faça parte da comunidade Dev no Discord:
 
-## Venha para comunidade Dev do Discord:
-
-* https://discord.gg/rZb2evQa
+* https://discord.gg/6wcAYmYCky
 
 * contato:
 * metalomega@gmail.com
